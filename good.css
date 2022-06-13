@@ -1,0 +1,116 @@
+
+.home{
+    display: flex;
+    align-items: center;
+}
+  
+.home .content h1{
+    font-size: 5rem;
+    color:var(--red);
+}
+  
+.home .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+  
+.home .content p{
+    font-size: 1.7rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.heading{
+  text-align: center;
+  color:var(--red);
+  padding:1rem;
+  font-size: 3.5rem;
+}
+
+header{
+  position: fixed;
+  top:0; left: 0; right: 0;
+  background:url(../images/header-bg.png) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 10000;
+  padding:1.5rem 7%;
+  padding-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  font-size: 2.5rem;
+  color:#333;
+}
+
+header .logo i{
+  padding-right: .5rem;
+  color:var(--red);
+}
+
+header .navbar a{
+  font-size: 2rem;
+  margin-left: 2rem;
+  color:#333;
+}
+
+header .navbar a:hover{
+  color:var(--red);
+}
+.pricing{
+    position: relative;
+  }
+  
+  .pricing .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .pricing .box-container .box{
+    flex:1 1 35rem;
+    margin:1rem;
+    padding:4rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.3);
+    text-align: center;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pricing .box-container .box h3{
+    font-size: 4rem;
+    color:#333;
+  }
+  
+  .pricing .box-container .box .price{
+    font-size: 5.5rem;
+    color:var(--red);
+  }
+  
+  .pricing .box-container .box .price span{
+    font-size: 2.5rem;
+  }
+  
+  .pricing .box-container .box p{
+    font-size:1.7rem;
+    padding:1rem 0;
+    color:#666;
+  }
+  
+  .pricing .box-container .box .choise{
+    position: absolute;
+    top:0; right:-5rem;
+    background:var(--red);
+    color:#fff;
+    font-size: 2rem;
+    padding:.6rem 5.5rem;
+    transform: rotate(45deg);
+  }
